@@ -1749,12 +1749,12 @@ Normalmente esto se soluciona volviendo a ejecutar oracle para actualizar tu bas
         <location filename="../src/dlg_settings.cpp" line="1378"/>
         <source>Your card database did not finish loading
 
-Please file a ticket at https://github.com/Cockatrice/Cockatrice/issues with your cards.xml attached
+Please file a ticket at https://github.com/lawnalternatives/Cockatrice/issues with your cards.xml attached
 
 Would you like to change your database location setting?</source>
         <translation>Tu base de datos de cartas no terminó de cargarse
 
-Por favor, envía un ticket en https://github.com/Cockatrice/Cockatrice/issues con tus cartas.xml anexadas
+Por favor, envía un ticket en https://github.com/lawnalternatives/Cockatrice/issues con tus cartas.xml anexadas
 
 ¿Te gustaría cambiar la configuración de la ubicación de tu base de datos?</translation>
     </message>
@@ -1780,12 +1780,12 @@ Would you like to change your database location setting?</source>
         <location filename="../src/dlg_settings.cpp" line="1392"/>
         <source>Unknown card database load status
 
-Please file a ticket at https://github.com/Cockatrice/Cockatrice/issues
+Please file a ticket at https://github.com/lawnalternatives/Cockatrice/issues
 
 Would you like to change your database location setting?</source>
         <translation>Estado de carga de la base de datos de cartas desconocido
 
-Por favor, envía un ticket en https://github.com/Cockatrice/Cockatrice/issues
+Por favor, envía un ticket en https://github.com/lawnalternatives/Cockatrice/issues
 
 ¿Te gustaría cambiar la configuración de la ubicación de tu base de datos?</translation>
     </message>

@@ -74,11 +74,11 @@ endif()
 
 # A project name is needed for CPack
 # Version can be overriden by git tags, see cmake/getversion.cmake
-project("Cockatrice" VERSION 2.8.1)
+project("Cockatrice" VERSION 42.0.0)
 
 # Set release name if not provided via env/cmake var
 if(NOT DEFINED GIT_TAG_RELEASENAME)
-  set(GIT_TAG_RELEASENAME "Prismatic Bridge")
+  set(GIT_TAG_RELEASENAME "Lawn Alternative")
 endif()
 
 # Use c++17 for all targets
@@ -263,7 +263,7 @@ if(UNIX)
         set(CPACK_RPM_PACKAGE_REQUIRES "protobuf, qt5-qttools, qt5-qtsvg, qt5-qtmultimedia")
       endif()
       set(CPACK_RPM_PACKAGE_GROUP "Amusements/Games")
-      set(CPACK_RPM_PACKAGE_URL "http://github.com/Cockatrice/Cockatrice")
+      set(CPACK_RPM_PACKAGE_URL "http://github.com/lawnalternatives/Cockatrice")
       # stop directories from making package conflicts
       set(CPACK_RPM_EXCLUDE_FROM_AUTO_FILELIST_ADDITION
           /usr/share/applications
@@ -278,7 +278,7 @@ if(UNIX)
       set(CPACK_GENERATOR DEB)
       set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
       set(CPACK_DEBIAN_PACKAGE_SECTION "games")
-      set(CPACK_DEBIAN_PACKAGE_HOMEPAGE "http://github.com/Cockatrice/Cockatrice")
+      set(CPACK_DEBIAN_PACKAGE_HOMEPAGE "http://github.com/lawnalternatives/Cockatrice")
       if(Qt6_FOUND)
         set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt6multimedia6, libqt6svg6, qt6-qpa-plugins")
       elseif(Qt5_FOUND)

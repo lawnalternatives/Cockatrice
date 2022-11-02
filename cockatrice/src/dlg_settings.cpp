@@ -38,8 +38,8 @@
 #include <QTreeWidget>
 #include <QTreeWidgetItem>
 
-#define WIKI_CUSTOM_PIC_URL "https://github.com/Cockatrice/Cockatrice/wiki/Custom-Picture-Download-URLs"
-#define WIKI_CUSTOM_SHORTCUTS "https://github.com/Cockatrice/Cockatrice/wiki/Custom-Keyboard-Shortcuts"
+#define WIKI_CUSTOM_PIC_URL "https://github.com/lawnalternatives/Cockatrice/wiki/Custom-Picture-Download-URLs"
+#define WIKI_CUSTOM_SHORTCUTS "https://github.com/lawnalternatives/Cockatrice/wiki/Custom-Keyboard-Shortcuts"
 
 GeneralSettingsPage::GeneralSettingsPage()
 {
@@ -1380,7 +1380,7 @@ void DlgSettings::closeEvent(QCloseEvent *event)
             break;
         case NotLoaded:
             loadErrorMessage = tr("Your card database did not finish loading\n\n"
-                                  "Please file a ticket at https://github.com/Cockatrice/Cockatrice/issues with your "
+                                  "Please file a ticket at https://github.com/lawnalternatives/Cockatrice/issues with your "
                                   "cards.xml attached\n\n"
                                   "Would you like to change your database location setting?");
             break;
@@ -1394,7 +1394,7 @@ void DlgSettings::closeEvent(QCloseEvent *event)
             break;
         default:
             loadErrorMessage = tr("Unknown card database load status\n\n"
-                                  "Please file a ticket at https://github.com/Cockatrice/Cockatrice/issues\n\n"
+                                  "Please file a ticket at https://github.com/lawnalternatives/Cockatrice/issues\n\n"
                                   "Would you like to change your database location setting?");
 
             break;

@@ -1734,7 +1734,7 @@ Would you like to change your database location setting?</source>
         <location filename="../src/dlg_settings.cpp" line="1378"/>
         <source>Your card database did not finish loading
 
-Please file a ticket at https://github.com/Cockatrice/Cockatrice/issues with your cards.xml attached
+Please file a ticket at https://github.com/lawnalternatives/Cockatrice/issues with your cards.xml attached
 
 Would you like to change your database location setting?</source>
         <translation type="unfinished"/>
@@ -1757,7 +1757,7 @@ Would you like to change your database location setting?</source>
         <location filename="../src/dlg_settings.cpp" line="1392"/>
         <source>Unknown card database load status
 
-Please file a ticket at https://github.com/Cockatrice/Cockatrice/issues
+Please file a ticket at https://github.com/lawnalternatives/Cockatrice/issues
 
 Would you like to change your database location setting?</source>
         <translation type="unfinished"/>
