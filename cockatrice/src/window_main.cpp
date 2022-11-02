@@ -66,13 +66,13 @@
 #include <QtNetwork>
 
 #define GITHUB_PAGES_URL "https://cockatrice.github.io"
-#define GITHUB_CONTRIBUTORS_URL "https://github.com/lawnalternatives/Cockatrice/graphs/contributors?type=c"
-#define GITHUB_CONTRIBUTE_URL "https://github.com/lawnalternatives/Cockatrice#cockatrice"
-#define GITHUB_TRANSIFEX_TRANSLATORS_URL "https://github.com/lawnalternatives/Cockatrice/wiki/Translator-Hall-of-Fame"
-#define GITHUB_TRANSLATOR_FAQ_URL "https://github.com/lawnalternatives/Cockatrice/wiki/Translation-FAQ"
-#define GITHUB_ISSUES_URL "https://github.com/lawnalternatives/Cockatrice/issues"
-#define GITHUB_TROUBLESHOOTING_URL "https://github.com/lawnalternatives/Cockatrice/wiki/Troubleshooting"
-#define GITHUB_FAQ_URL "https://github.com/lawnalternatives/Cockatrice/wiki/Frequently-Asked-Questions"
+#define GITHUB_CONTRIBUTORS_URL "https://github.com/lawnalternatives/Commatrice/graphs/contributors?type=c"
+#define GITHUB_CONTRIBUTE_URL "https://github.com/lawnalternatives/Commatrice#cockatrice"
+#define GITHUB_TRANSIFEX_TRANSLATORS_URL "https://github.com/lawnalternatives/Commatrice/wiki/Translator-Hall-of-Fame"
+#define GITHUB_TRANSLATOR_FAQ_URL "https://github.com/lawnalternatives/Commatrice/wiki/Translation-FAQ"
+#define GITHUB_ISSUES_URL "https://github.com/lawnalternatives/Commatrice/issues"
+#define GITHUB_TROUBLESHOOTING_URL "https://github.com/lawnalternatives/Commatrice/wiki/Troubleshooting"
+#define GITHUB_FAQ_URL "https://github.com/lawnalternatives/Commatrice/wiki/Frequently-Asked-Questions"
 
 const QString MainWindow::appName = "Cockatrice";
 const QStringList MainWindow::fileNameFilters = QStringList() << QObject::tr("Cockatrice card database (*.xml)")

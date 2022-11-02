@@ -139,7 +139,7 @@ WndSets::WndSets(QWidget *parent) : QMainWindow(parent)
                       tr("Card Art") + ":</b> " + tr("Image priority is decided in the following order:") + "<br>" +
                       tr("first the CUSTOM Folder (%1), then the Enabled Sets in this dialog (Top to Bottom)",
                          "%1 is a link to the wiki")
-                          .arg("<a href='https://github.com/lawnalternatives/Cockatrice/wiki/Custom-Cards-%26-Sets"
+                          .arg("<a href='https://github.com/lawnalternatives/Commatrice/wiki/Custom-Cards-%26-Sets"
                                "#to-add-custom-art-for-cards-the-easiest-way-is-to-use-the-custom-folder'>" +
                                tr("How to use custom card art") + "</a>"));
 

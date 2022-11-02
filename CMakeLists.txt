@@ -263,7 +263,7 @@ if(UNIX)
         set(CPACK_RPM_PACKAGE_REQUIRES "protobuf, qt5-qttools, qt5-qtsvg, qt5-qtmultimedia")
       endif()
       set(CPACK_RPM_PACKAGE_GROUP "Amusements/Games")
-      set(CPACK_RPM_PACKAGE_URL "http://github.com/lawnalternatives/Cockatrice")
+      set(CPACK_RPM_PACKAGE_URL "http://github.com/lawnalternatives/Commatrice")
       # stop directories from making package conflicts
       set(CPACK_RPM_EXCLUDE_FROM_AUTO_FILELIST_ADDITION
           /usr/share/applications
@@ -278,7 +278,7 @@ if(UNIX)
       set(CPACK_GENERATOR DEB)
       set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
       set(CPACK_DEBIAN_PACKAGE_SECTION "games")
-      set(CPACK_DEBIAN_PACKAGE_HOMEPAGE "http://github.com/lawnalternatives/Cockatrice")
+      set(CPACK_DEBIAN_PACKAGE_HOMEPAGE "http://github.com/lawnalternatives/Commatrice")
       if(Qt6_FOUND)
         set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt6multimedia6, libqt6svg6, qt6-qpa-plugins")
       elseif(Qt5_FOUND)

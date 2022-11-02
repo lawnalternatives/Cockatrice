@@ -11,13 +11,13 @@
 #include <QSysInfo>
 #include <QtGlobal>
 
-#define STABLERELEASE_URL "https://api.github.com/repos/lawnalternatives/Cockatrice/releases/latest"
-#define STABLEMANUALDOWNLOAD_URL "https://github.com/lawnalternatives/Cockatrice/releases/latest"
-#define STABLETAG_URL "https://api.github.com/repos/lawnalternatives/Cockatrice/git/refs/tags/"
+#define STABLERELEASE_URL "https://api.github.com/repos/lawnalternatives/Commatrice/releases/latest"
+#define STABLEMANUALDOWNLOAD_URL "https://github.com/lawnalternatives/Commatrice/releases/latest"
+#define STABLETAG_URL "https://api.github.com/repos/lawnalternatives/Commatrice/git/refs/tags/"
 
-#define BETARELEASE_URL "https://api.github.com/repos/lawnalternatives/Cockatrice/releases"
-#define BETAMANUALDOWNLOAD_URL "https://github.com/lawnalternatives/Cockatrice/releases/"
-#define BETARELEASE_CHANGESURL "https://github.com/lawnalternatives/Cockatrice/compare/%1...%2"
+#define BETARELEASE_URL "https://api.github.com/repos/lawnalternatives/Commatrice/releases"
+#define BETAMANUALDOWNLOAD_URL "https://github.com/lawnalternatives/Commatrice/releases/"
+#define BETARELEASE_CHANGESURL "https://github.com/lawnalternatives/Commatrice/compare/%1...%2"
 
 #define GIT_SHORT_HASH_LEN 7
 
