@@ -30,10 +30,11 @@ ThemeManager::ThemeManager(QObject *parent) : QObject(parent)
 
 void ThemeManager::ensureThemeDirectoryExists()
 {
+    QStringMap &AvailableThemes = getAvailableThemes();
     if (SettingsCache::instance().getThemeName().isEmpty() ||
-        !getAvailableThemes().contains(SettingsCache::instance().getThemeName())) {
+        !AvailableThemes.contains(SettingsCache::instance().getThemeName())) {
         qDebug() << "Theme name not set, setting default value";
-        SettingsCache::instance().setThemeName(NONE_THEME_NAME);
+        SettingsCache::instance().setThemeName(AvailableThemes.contains("DarkMingo") ? "DarkMingo" : NONE_THEME_NAME);
     }
 }
 
