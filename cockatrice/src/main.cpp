@@ -116,9 +116,9 @@ int main(int argc, char *argv[])
 
     // These values are only used by the settings loader/saver
     // Wrong or outdated values are kept to not break things
-    QCoreApplication::setOrganizationName("Cockatrice");
+    QCoreApplication::setOrganizationName("Commatrice");
     QCoreApplication::setOrganizationDomain("cockatrice.de");
-    QCoreApplication::setApplicationName("Cockatrice");
+    QCoreApplication::setApplicationName("Commatrice");
     QCoreApplication::setApplicationVersion(VERSION_STRING);
 
 #ifdef Q_OS_MAC
@@ -134,7 +134,7 @@ int main(int argc, char *argv[])
 #endif
 
     QCommandLineParser parser;
-    parser.setApplicationDescription("Cockatrice");
+    parser.setApplicationDescription("Commatrice");
     parser.addHelpOption();
     parser.addVersionOption();
 

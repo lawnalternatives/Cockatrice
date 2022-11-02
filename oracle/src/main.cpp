@@ -50,10 +50,10 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    QCoreApplication::setOrganizationName("Cockatrice");
+    QCoreApplication::setOrganizationName("Commatrice");
     QCoreApplication::setOrganizationDomain("cockatrice");
     // this can't be changed, as it influences the default save path for cards.xml
-    QCoreApplication::setApplicationName("Cockatrice");
+    QCoreApplication::setApplicationName("Commatrice");
 
     // If the program is opened with the -s flag, it will only do spoilers. Otherwise it will do MTGJSON/Tokens
     QCommandLineParser parser;
