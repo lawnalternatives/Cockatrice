@@ -114,10 +114,12 @@ bool CardZone::showContextMenu(const QPoint &screenPos)
 void CardZone::mousePressEvent(QGraphicsSceneMouseEvent *event)
 {
     if (event->button() == Qt::RightButton) {
+        setEnabled(false);
         if (showContextMenu(event->screenPos()))
             event->accept();
         else
             event->ignore();
+        setEnabled(true);
     } else
         event->ignore();
 }
